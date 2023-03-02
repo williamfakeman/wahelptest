@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Мар 02 2023 г., 20:53
+-- Время создания: Мар 02 2023 г., 21:13
 -- Версия сервера: 10.6.10-MariaDB
 -- Версия PHP: 8.2.3
 
@@ -41,8 +41,7 @@ CREATE TABLE `mailing_list_users` (
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `number` varchar(64) NOT NULL,
-  `name` varchar(256) NOT NULL,
-  `sent` int(11) NOT NULL DEFAULT 0
+  `name` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
